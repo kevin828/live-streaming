@@ -12,7 +12,7 @@
 
 ### Build Nginx with RTMP module
 - Generate Makefile
-```shell script
+```shell
 ./configure \\
 --prefix=/usr/local/nginx \\
 --with-pcre=../pcre-8.43 \\
@@ -25,7 +25,7 @@
 --add-module=../nginx-rtmp-module \\
 ```
 - Compile and install Nginx
-```
+```shell
 sudo make install
 ```
 
