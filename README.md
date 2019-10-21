@@ -38,6 +38,10 @@ sudo make install
   - [Setting up HLS live streaming server using NGINX + nginx-rtmp-module on Ubuntu](https://docs.peer5.com/guides/setting-up-hls-live-streaming-server-using-nginx/)
   - [ubuntu搭建推流服務器Nginx+rtmp](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=357776)
 
+- Nginx
+  - [Nginx Directives](http://nginx.org/en/docs/dirindex.html)
+  - [Nginx-rtmp-module Directives](https://github.com/arut/nginx-rtmp-module/wiki/Directives)
+
 - FFmpeg
   - [FFmpeg Documentation](https://www.ffmpeg.org/ffmpeg.html)
   - [FFmpeg Formats Documentation](https://www.ffmpeg.org/ffmpeg-formats.html)
