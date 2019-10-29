@@ -32,6 +32,11 @@ sudo make install
 ### Nginx Configurations
 - [nginx.conf](/nginx.conf)
 
+### FFmpeg Command Example
+```cmd
+ffmpeg.exe -f dshow -i video="your Webcam" -vf scale=640x480 -b:v 750k -minrate 375k -maxrate 1088k -bufsize 2176k -g 60 -threads 4 -quality good -crf 33 -c:v libx264 -preset:v ultrafast -c:a aac -f flv rtmp://xxx.xxx.xxx.xxx/dash/mystream
+```
+
 ### Reference
 - Build Nignx on Ubuntu
   - [How To Install Nginx RTMP Server + HLS on Ubuntu 16.04 | EASY!](https://northwoodsdigital.com/how-to-install-nginx-rtmp-server-hls-on-ubuntu-16-04-easy/)
